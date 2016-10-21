@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="english">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>To Do MVC</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
+         <link rel="stylesheet" href="css/main.css"> 
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <body>
+  <header class="header">
+    <h1 class="headline"> To Do-ish</h1>
+    <h3><small>mini project by Haley Rymel</small></h3>
+  </header>
+  <div id="wrapper">
+    <h2>What do you need to accomplish today?</h2>
+    <form id="simpleForm">
+      <input type="text" id="inputTask" placeholder="Take over the world"></input>
+      <a href="#" class="button" id="inputBtn">Add it to the list</a>
+      <a href="#" class="button" id="resetBtn">Reset the List</a>
+      <a href="#" class="button" id="deleteBtn">Delete Checked Items</a>
+    </form>
+    <!--format to 2 decimal places-->
+    <p id='percentDone'><span id='percDoneNum'>0</span>% complete</p>
+    <ul class="addThemHere">
+    </ul>
+  </div>
+</body>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+        <script src="js/todo.js"></script>
+        
+    </body>
+</html>
